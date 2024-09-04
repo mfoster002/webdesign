@@ -1,0 +1,77 @@
+/*
+COLOR PALETTE
+
+Light gray   #EDEDE9
+Light blue   #e2ecf7
+Orange Brown #a87b61
+Medium Brown:#57331d
+Dark Brown:  #4e4444
+*/
+
+/* Global Styles 
+------------------------------------------*/
+h1 {
+    color: #4e4444;
+    font-size: 75px;
+}
+
+h2 {
+    color: #57331d;
+    padding-top: 40px;
+}
+
+h3 {
+    color: #4e4444;
+    font-size: 16px; 
+}
+
+body {
+    background: #edede9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* links */
+a { 
+    color: #4e4444;
+}
+
+a:hover {
+    color: #a87b61;
+    text-decoration: none;
+}
+
+.btn {
+    background: #4e4444;
+    color: #EDEDE9;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    color: bisque;
+}
+
+/* Home
+------------------------------------------}*/
+.home {
+    background:url(../images/annie-spratt-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+
+.content-wrapper {
+    background: rgb(237 237 233 / 0.8);
+}
+
+/* Projects
+------------------------------------------}*/
+.example-project {
+    padding-bottom: 20px;
+}
+
+/*Footer
+-----------------------------------------*/
+footer {
+   background:#e2ecf7;
+   padding-bottom: 40px;
+}
